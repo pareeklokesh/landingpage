@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import TeamMember from './Pages/TeamMember';
 import Career from './Pages/Career';
+import SwiperPage from './Pages/Swiper';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/contact' element={ <Contact /> } />
       <Route path='/team' element={<TeamMember />} />
       <Route path='/career' element={<Career />}></Route>
+      <Route path='/swiper-slider' element={<SwiperPage />}></Route>
       </Routes>
     </Router>
     

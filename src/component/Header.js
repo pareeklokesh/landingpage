@@ -28,6 +28,7 @@ function Header(props){
                     <Nav.Link as={Link} to="/team">Team</Nav.Link>
                     <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     <Nav.Link as={Link} to="/career">Career</Nav.Link>
+                    <Nav.Link as={Link} to="/swiper-slider">Swiper</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav.Link className="btn-getstarted">Get Started</Nav.Link>
