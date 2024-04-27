@@ -4,7 +4,7 @@ import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Col, Container, Row, Stack, ThemeProvider } from 'react-bootstrap';
 import Index from './Pages/Index';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import TeamMember from './Pages/TeamMember';
@@ -14,7 +14,7 @@ import SwiperPage from './Pages/Swiper';
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter>
       <Routes>
       <Route path='/' element={ <Index /> } />
       <Route path='/about' element={ <About /> } />
@@ -23,7 +23,7 @@ function App() {
       <Route path='/career' element={<Career />}></Route>
       <Route path='/swiper-slider' element={<SwiperPage />}></Route>
       </Routes>
-    </Router>
+      </HashRouter>
     
     </>
 
